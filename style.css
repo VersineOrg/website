@@ -1,1 +1,87 @@
-body {}
+body {
+	background-color: #28DBB7;
+
+}
+
+h1 {
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 90px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #FFFFFF;	
+}
+h4	{
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 72px;
+	line-height: 90px;
+	text-align: center;
+	color : #FFFFFF;
+}
+
+#titre1 {
+
+
+font-family: Quicksand;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+
+
+color: #000000;
+
+}
+#para1 {
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 56px;
+
+	color: #000000;
+}
+#titre2 {
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 96px;
+
+	color: #000000;
+}
+#para2 {
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 56px;
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+
+}
+.button {
+	height: 120px;
+	width: 500px;
+	border-radius: 53px;
+	background-color: #6D7373;
+	text-align : center;
+	font-family: Roboto, Helvetica	;
+	font-size : 48;
+}
+
+.button:hover 
+{   
+    background-color : #FFFFFF;
+}
+/* p{
+	background-image: url('background.jpg');
+} */
