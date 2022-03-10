@@ -1,21 +1,37 @@
 body {
 	background-color: #28DBB7;
-
+	padding: 0;
+	margin: 0;
 }
-
+.navbar{
+	display: flex;
+	align-items: center;
+	height : 100px;
+	position: absolute;
+	top:0%;
+	bottom:80%%;
+	}
 h1 {
 	font-family: Quicksand;
 	font-style: normal;
 	font-weight: 500;
-	font-size: 72px;
+	font-size: 64px;
 	line-height: 90px;
-	display: flex;
-	align-items: center;
 	text-align: center;
-
 	color: #FFFFFF;	
 }
+#versinelogonavbar{
+	width: 130px;
+	height: 130px;
+}
+
+.home{
+	background-image: url('background.jpg');	
+	height: 1200px	;
+}
+
 h4	{
+	padding-top : 400px;
 	font-family: Quicksand;
 	font-style: normal;
 	font-weight: 500;
@@ -24,21 +40,23 @@ h4	{
 	text-align: center;
 	color : #FFFFFF;
 }
-
+.textVersine {
+	height: 500px;
+	background-color: #28DBB7;
+	text-align: left;
+}
 #titre1 {
+	margin-left :30px;
+	font-family: Quicksand;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 96px;
 
 
-font-family: Quicksand;
-font-style: normal;
-font-weight: normal;
-font-size: 96px;
-
-
-color: #000000;
-
+	color: #000000;
 }
 #para1 {
-
+	margin-left :30px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -47,16 +65,22 @@ color: #000000;
 
 	color: #000000;
 }
+
+.textKiss {
+	height: 400px;
+	background-color:#F4F6F6;
+	text-align: left;
+}
 #titre2 {
+	margin-left :30px;
 	font-family: Quicksand;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 96px;
-
 	color: #000000;
 }
 #para2 {
-
+	margin-left :30px;
 	font-family: Roboto;
 	font-style: normal;
 	font-weight: normal;
@@ -68,20 +92,40 @@ color: #000000;
 	color: #000000;
 
 }
+.footer {
+	margin-top : 50px;
+}
+#versinelogobas {
+	position: absolute;
+	right: 35%;
+	width: 300px;
+	height: 300px;
+
+}
+
+#kisslogobas {
+	position: absolute;
+	left: 35%;
+	width: 300px;
+	height: 300px;
+}
+
 .button {
+	margin: 0 auto;
+    display: block;
+	border: none;
+	align-items: center;
 	height: 120px;
 	width: 500px;
-	border-radius: 53px;
+	border-radius: 50px;
 	background-color: #6D7373;
 	text-align : center;
-	font-family: Roboto, Helvetica	;
-	font-size : 48;
+	color: #FFFFFF;
+	font-family: Quicksand;
+	font-size : 48px;
 }
 
 .button:hover 
 {   
-    background-color : #FFFFFF;
+    background-color : #595F5F;
 }
-/* p{
-	background-image: url('background.jpg');
-} */
