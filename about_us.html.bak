@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>À propos de KISS</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+</head>
+<body>
+		
+		<nav class="navbar" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="index.html">
+				  <img src="images/versinelogo.png" width="25" height="50">
+				</a>
+
+				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				  <span aria-hidden="true"></span>
+				  <span aria-hidden="true"></span>
+				  <span aria-hidden="true"></span>
+				</a>
+			  </div>
+			  <div id="navbarBasicExample" class="navbar-menu">
+				<div class="navbar-start">
+				  <a class="navbar-item" href="versine.html"  style="font-family :'Roboto'">
+					Versine 
+				  </a>
+				  <a class="navbar-item" href="download.html"  style="font-family :'Roboto'">
+					Télécharger Versine 
+				  </a>
+				  <a class="navbar-item" href="about_us.html"  style="font-family :'Roboto'">
+					À propos de KISS
+				  </a>
+				  <a class="navbar-item" href="documentation.html"  style="font-family :'Roboto'">
+					Documentation
+				  </a>
+				  <div class="navbar-item has-dropdown is-hoverable"  style="font-family :'Roboto'">
+					<a class="navbar-link">
+					  Plus
+					</a>
+					<div class="navbar-dropdown">
+					  <a class="navbar-item" href= https://status.versine.fr/  style="font-family :'Roboto'">
+						Versine status 
+					  </a>
+					  <hr class="navbar-divider">
+					  <a class="navbar-item" href= https://bug.versine.fr/  style="font-family :'Roboto'">
+						Signaler un bug
+					  </a>
+					</div>
+				  </div>
+				</div>
+			  </div>
+		</nav>
+	<section class="section has-text-centered">
+				<figure class="image is-128x128 is-inline-block">
+					 <img src="images/kisslogo.png">
+				</figure>
+			<div class="container">
+				<div class="notification is-primary">
+				  <h1 class="title">
+				  Nous sommes KISS	
+				  </h1>
+				  <p>
+					KISS pour “Keep it simple stupid”. Nous sommes un groupe d'étudiants en première année à Epita Lyon :<strong> Mickaël</strong>, <strong>Maxime</strong>, <strong>Yann</strong> et <strong>Rayan</strong>.
+					Pour ce projet informatique, nous souhaitions nous démarquer en développant un réseau social. C'est pour cela que nous avons décidé de créer Versine.
+					Nous avons décidé de remédier à notre échelle à un problème récurrent des réseaux sociaux en nous concentrant sur la protection de la  <strong> vie privée </strong> des utilisateurs.
+				  </p>
+			</div>
+		</div>
+	</section>
+	<!--Présentation Mickaël-->	
+	<section class="section">
+		<h1 class="title">Citations Inspirantes</h1>
+		<article class="media">
+		  <figure class="media-left">
+			<p class="image is-64x64">
+			  <img class="is-rounded" src="https://cdn.discordapp.com/attachments/918420160904310785/983502911202000917/pp2.png">
+			</p>
+		  </figure>
+			  <div class="media-content">
+				<div class="content">
+				  <p>
+					<strong>Mickaël</strong> <small>@zoukrox</small>
+					<br>
+					"Dormir, c'est pour les faibles"
+				  </p>
+				</div>
+				<nav class="level is-mobile">
+				  <div class="level-left">
+					<a class="level-item">
+					  <span class="icon is-small"><i class="fas fa-reply"></i></span>
+					</a>
+					<a class="level-item">
+					  <span class="icon is-small"><i class="fas fa-retweet"></i></span>
+					</a>
+					<a class="level-item">
+					  <span class="icon is-small"><i class="fas fa-heart"></i></span>
+					</a>
+				  </div>
+				</nav>
+			  </div>
+			  <div class="media-right">
+				<button class="delete"></button>
+			  </div>
+			</article>
+	<!--Présentation Maxime-->	
+		<article class="media">
+		  <figure class="media-left">
+			<p class="image is-64x64">
+			  <img class="is-rounded" src="images/photoMax.jpg">
+			</p>
+		  </figure>
+			  <div class="media-content">
+				<div class="content">
+				  <p>
+					<strong>Maxime</strong> <small>@maxoupixou</small>
+					<br>
+					"Plus tu pédales moins vite, moins tu avances plus vite" 
+				  </p>
+				</div>
+				<nav class="level is-mobile">
+				  <div class="level-left">
+					<a class="level-item">
+					  <span class="icon is-small"><i class="fas fa-reply"></i></span>
+					</a>
+					<a class="level-item">
+					  <span class="icon is-small"><i class="fas fa-retweet"></i></span>
+					</a>
+					<a class="level-item">
+					  <span class="icon is-small"><i class="fas fa-heart"></i></span>
+					</a>
+				  </div>
+				</nav>
+			  </div>
+			  <div class="media-right">
+				<button class="delete"></button>
+			  </div>
+			</article>
+	<!--Présentation Yann-->	
+		<article class="media">
+		  <figure class="media-left">
+			<p class="image is-64x64">
+			  <img class="is-rounded" src="https://media.discordapp.net/attachments/932684724957241344/983502004527714354/unknown.png">
+			</p>
+		  </figure>
+			  <div class="media-content">
+				<div class="content">
+				  <p>
+					<strong>Yann</strong> <small>@saravenpi</small>
+					<br>
+					"L'eau ça mouille"
+				  </p>
+				</div>
+				<nav class="level is-mobile">
+				  <div class="level-left">
+					<a class="level-item">
+					  <span class="icon is-small"><i class="fas fa-reply"></i></span>
+					</a>
+					<a class="level-item">
+					  <span class="icon is-small"><i class="fas fa-retweet"></i></span>
+					</a>
+					<a class="level-item">
+					  <span class="icon is-small"><i class="fas fa-heart"></i></span>
+					</a>
+				  </div>
+				</nav>
+			  </div>
+			  <div class="media-right">
+				<button class="delete"></button>
+			  </div>
+			</article>
+	<!--Présentation Rayan-->
+		<article class="media">
+		  <figure class="media-left">
+			<p class="image is-64x64">
+			  <img class="is-rounded" src="https://media.discordapp.net/attachments/918420160904310785/983503034170630184/dewostonk2.png">
+			</p>
+		  </figure>
+			  <div class="media-content">
+				<div class="content">
+				  <p>
+					<strong>Rayan</strong> <small>@zouzma</small>
+					<br>
+					"Une absence totale d'ambitions débouche souvent sur de considérables économies d'énergie."
+				  </p>
+				</div>
+				<nav class="level is-mobile">
+				  <div class="level-left">
+					<a class="level-item">
+					  <span class="icon is-small"><i class="fas fa-reply"></i></span>
+					</a>
+					<a class="level-item">
+					  <span class="icon is-small"><i class="fas fa-retweet"></i></span>
+					</a>
+					<a class="level-item">
+					  <span class="icon is-small"><i class="fas fa-heart"></i></span>
+					</a>
+				  </div>
+				</nav>
+			  </div>
+			  <div class="media-right">
+				<button class="delete"></button>
+			  </div>
+			</article>
+		</section>
+		
+		
+	<footer class="footer">
+	  <div class="content has-text-centered">
+		<p>
+		  <strong>Versine</strong> by <img src="images/kisslogo.png" alt="kisslogo" height="16" width="32"></a> | Open source project | All code is available in <a href="https://github.com/VersineOrg">Github</a>
+		</p>
+	  </div>
+	</footer>
+</body>
+</html>

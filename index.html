@@ -2,77 +2,66 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Versine</title>
-        <link rel="stylesheet" href="style.css" type="text/css" media="all">
-		<link rel="icon" href="images/favicon.png">
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
     </head>
     <body>
-		<div class="home">
-			<div class="versinePrez">
-				<img id="versinelogonavbar" src="images/versinelogow.png" alt="versine logo">
-				<p id="versine">
-          Versine
-        </p>
-      </div>
+		<section class="hero is-primary is-fullheight  is-bold">
+			 <nav class="navbar" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="index.html">
+				  <img src="images/versinelogowhite.png" width="25" height="50">
+				</a>
 
-      <h4> Don't mind sharing</h4> 
-
-			<a class="button downloadbutton" href="downloadPage.html">
-				<img id="downloadicon" src="images/icons8-download-64 WHITE.png" alt="dlicon">
-			</img> 
-				Téléchargement 
-			</a>
+				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				  <span aria-hidden="true"></span>
+				  <span aria-hidden="true"></span>
+				  <span aria-hidden="true"></span>
+				</a>
+			  </div>
+			  <div id="navbarBasicExample" class="navbar-menu">
+				<div class="navbar-start">
+				  <a class="navbar-item" href="versine.html"  style="font-family :'Roboto'">
+					Versine 
+				  </a>
+				  <a class="navbar-item" href="download.html"  style="font-family :'Roboto'">
+					Télécharger Versine 
+				  </a>
+				  <a class="navbar-item" href="about_us.html"  style="font-family :'Roboto'">
+					À propos de KISS
+				  </a>
+				  <a class="navbar-item" href="documentation.html"  style="font-family :'Roboto'">
+					Documentation
+				  </a>
+				</div>
+			  </div>
+		</nav>
+		  <div class="hero-body" >
+			<div class="container">
+					<section class= "section has-text-centered"
+					<figure class="image is-64x64 is-inline-block">
+						<img src="images/versinelogowhite.png">
+					</figure>
+					  <p class="title" style="font-family :'Roboto'">
+					  Versine
+					  </p>	
+					  <p class="subtitle">
+					  Don't mind sharing
+					  </p>
+					</section>
+			</div>	
 		</div>
-		
-		<div class="textVersine">
-			<h2 id="titre1">Qu’est ce que Versine:</h2>
-			
-			<img id="illustration" src="images/Rectangle 15.png" alt="cadenas">
-			
-			<p id="para1">Versine est un projet de réseau social, axé 
-      principalement sur <b>deux principes</b> : 
-			<br>
-			&middot la sécurité des utilisateurs
-			<br>
-			&middot l’invite only
-			<br>
-			Nous souhaitons aussi nous démarquer des
-			autres réseaux sociaux en proposant des 
-			fonctionnalités innovantes, tels que 
-			les circles.
-			</p>
-			
-		</div>
-		
-		<div class="textKiss">
-			<img id="kisslogo" src="images/kisslogo.png" alt="kisslogo">
-			<h2 id="titre2">Le groupe KISS:</h2>
-			<p id="para2">
-        Nous sommes K.I.S.S, pour “Keep it simple stupid”. 
-        Nous sommes quatre étudiants à l’EPITA. 
-        Nous avons choisi de créer un réseau social car c’est un projet original qui nous permet de découvrir de nombreuses technologies.
-      </p>
-      <p id="para3">
-        <img id="group" src="images/group.jpg" alt="group">
-      </p>
-       
-
-				
-		</div>
-		
-		<div class="footer">
-      <center>
-        <a class="button downloadbutton" href="downloadPage.html">
-          <img id="downloadicon" src="images/icons8-download-64 WHITE.png" alt="dlicon">
-          </img> 
-          Téléchargement 
-        </a>
-      </center>
-			<img id="versinelogobas" src="images/versinelogow.png" alt="versine logo">
-			<img id="kisslogobas" src="images/kisslogow.png" alt="kiss logo">	
-		</div>
+		</section>
+			<footer class="footer">
+			  <div class="content has-text-centered">
+				<p>
+				  <strong>Versine</strong> by <img src="images/kisslogo.png" alt="kisslogo" height="16" width="32"></a> | Open source project | All code is available in <a href="https://github.com/VersineOrg">Github</a>
+				</p>
+			  </div>
+			</footer>
     </body>
 </html>

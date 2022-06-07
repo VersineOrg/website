@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Versine</title>
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand">
+    </head>
+    <body>
+	<nav class="navbar" role="navigation" aria-label="main navigation">
+			<div class="navbar-brand">
+				<a class="navbar-item" href="index.html">
+				  <img src="images/versinelogo.png" width="25" height="50">
+				</a>
+
+				<a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				  <span aria-hidden="true"></span>
+				  <span aria-hidden="true"></span>
+				  <span aria-hidden="true"></span>
+				</a>
+			  </div>
+			  <div id="navbarBasicExample" class="navbar-menu">
+				<div class="navbar-start">
+				  <a class="navbar-item" href="versine.html"  style="font-family :'Roboto'">
+					Versine 
+				  </a>
+				  <a class="navbar-item" href="download.html"  style="font-family :'Roboto'">
+					Télécharger Versine 
+				  </a>
+				  <a class="navbar-item" href="about_us.html"  style="font-family :'Roboto'">
+					À propos de KISS
+				  </a>
+				  <a class="navbar-item" href="documentation.html"  style="font-family :'Roboto'">
+					Documentation
+				  </a>
+				  <div class="navbar-item has-dropdown is-hoverable"  style="font-family :'Roboto'">
+					<a class="navbar-link">
+					  Plus
+					</a>
+					<div class="navbar-dropdown">
+					  <a class="navbar-item" href= https://status.versine.fr/  style="font-family :'Roboto'">
+						Versine status 
+					  </a>
+					  <hr class="navbar-divider">
+					  <a class="navbar-item" href= https://bug.versine.fr/  style="font-family :'Roboto'">
+						Signaler un bug
+					  </a>
+					</div>
+				  </div>
+				</div>
+			  </div>
+		</nav>
+		
+		<section class="section has-text-centered">
+			<h1 class="title">Le projet Versine</h1>
+		</section>
+		
+		<section class="section">
+			<div class = "container">
+				<div class="notification is-primary">
+				  <h1 class="title">
+					Présentation de Versine
+				  </h1>
+				  <p>
+				  Versine nommé ainsi après la fonction trigonométrique du même nom, est un réseau social créé par <a href="about_us.html"><strong>Kiss</strong></a> qui a pour ambition de retirer les aspects malsains de ses concurrents plus connus, 
+				  le but est ici de créer une plateforme d'échange saine où les utilisateurs profiteront d'un environnement de partage virtuel confortable.
+					Pour atteindre ces objectifs, nous avons décidé de nous focaliser sur trois points.</br>
+					Premièrement le contrôle des informations diffusées sur notre site, il n'est pas question d'inciter à la sur-exposition de notre vie privée et les Circles sont là pour répondre à ce problème. 
+					Deuxièmement, la garantie de protections des données utilisateurs, en effet nos services étant hébergés en Europe, ils respectent le <a href="https://www.cnil.fr/fr/reglement-europeen-protection-donnees"><strong>RGPD</strong></a>.
+					Et enfin, la sécurité est garantie à nos utilisateurs par des algorithmes de chiffrement qui chiffrent de bout en bout le trafic, les mots de passe sont conservés dans la base de données sous leur forme hashée et les requêtes utilisent le protocole HTTPS.
+				  </p>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class = "container">
+				<div class="notification is-primary">
+				  <h1 class="title">
+					  L'historique
+				  </h1>
+				</div>
+			</div>
+		</section>
+		
+		<section class="section">
+			<div class = "container">
+				<div class="notification is-primary">
+				  <h1 class="title">
+					Chronologie de réalisation
+				  </h1>
+				</div>
+			</div>
+		</section>
+
+		<section class="section">
+			<div class = "container">
+				<div class="notification is-primary">
+				  <h1 class="title">
+					Problèmes rencontrés et solutions
+				  </h1>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+		  <div class="content has-text-centered">
+			<p>
+			  <strong>Versine</strong> by <img src="images/kisslogo.png" alt="kisslogo" height="16" width="32"></a> | Open source project | All code is available in <a href="https://github.com/VersineOrg">Github</a>
+			</p>
+		  </div>
+		</footer>
+    </body>
+</html>
